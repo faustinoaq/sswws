@@ -6,9 +6,9 @@ A single click single file web server for Windows
 
 
 - **Does this already exist?** probably yes
-- **Was I able to use my google-fu to find it?** no, all I found is `python -m http.sever` and I hate it, I do not want to install Python in every Windows machine.
+- **Was I able to use my google-fu to find it?** no, all I found was `python -m http.sever` and I hate it, I do not want to install Python in every Windows machine.
 
-I want a single click web server fon Windows that I can trust and execute in a single file not depending in external bloated tools.
+I want a single click web server for Windows that I can trust and execute in a single file not depending in external bloated tools.
 
 ## Installation
 
