@@ -1,0 +1,13 @@
+name: sswws
+version: 0.1.0
+
+authors:
+  - Faustino Aguilar <faustinoaq at gmail>
+
+targets:
+  sswws:
+    main: src/sswws.cr
+
+crystal: 1.7.2
+
+license: MIT
