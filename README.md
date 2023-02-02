@@ -2,6 +2,9 @@
 
 A single click single file web server for Windows
 
+![image](https://user-images.githubusercontent.com/3067335/216237527-4d1d1d8b-d3ab-4fdc-9676-71dd43a4ecf8.png)
+
+
 - **Does this already exist?** probably yes
 - **Was I able to use my google-fu to find it?** no, all I found is `python -m http.sever` and I hate it, I do not want to install Python in every Windows machine.
 
@@ -36,7 +39,7 @@ Follow [these instructions](https://crystal-lang.org/install/on_windows/) to get
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/sswws/fork>)
+1. Fork it (<https://github.com/faustinoaq/sswws/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
