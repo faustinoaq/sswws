@@ -3,11 +3,12 @@
 require "http"
 require "option_parser"
 require "./sswws/art"
-require "./sswws/parser"
+require "./sswws/options"
 
 module Sswws
-  server = HTTP::Server.new([HTTP::LogHandler.new, HTTP::ErrorHandler.new, HTTP::StaticFileHandler.new(@@directory)])
-
+  options
+  handlers = [HTTP::LogHandler.new, HTTP::ErrorHandler.new, HTTP::StaticFileHandler.new(@@directory)]
+  server = HTTP::Server.new(handlers)
   address = server.bind_tcp(@@ip, @@port)
   puts ART
   puts "SSWWS is listening on http://#{address} and serving files in current path ."
