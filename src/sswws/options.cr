@@ -22,7 +22,7 @@ module Sswws
       parser.on("-i IP", "--ip=IP", "Specifies the ip to run on (default 127.0.0.1)") do |ip|
         @@ip = ip
       end
-      parser.on("-d DIR", "--dir=DIR", "Specifies the directory to run on (default same dir where is executed)") do |dir|
+      parser.on("-d DIR", "--dir=DIR", "Specifies the directory to run on (default same dir)") do |dir|
         @@dir = dir
       end
       parser.on("-h", "--help", "Show this help") do
