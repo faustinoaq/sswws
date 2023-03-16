@@ -3,7 +3,7 @@ require "option_parser"
 module Sswws
   extend self
 
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
 
   @@port = 8080
   @@ip = "0.0.0.0"
