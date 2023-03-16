@@ -26,7 +26,7 @@ Usage: sswws [arguments]
     -v, --version                    Server version
     -p PORT, --port=PORT             Specifies the port to run on (default 8080)
     -i IP, --ip=IP                   Specifies the ip to run on (default 127.0.0.1)
-    -d DIR, --dir=DIR                Specifies the directory to run on (default same dir where is executed)
+    -d DIR, --dir=DIR                Specifies the directory to run on (default same dir)
     -h, --help                       Show this help
 ```
 
